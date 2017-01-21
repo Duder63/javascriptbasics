@@ -6,7 +6,7 @@ var empty_object = {};
 var dude = {
  firstName: "Gary",
  lastName: "Shew",
- middleName: "M"
+ middleName: ""
 };
 
 
