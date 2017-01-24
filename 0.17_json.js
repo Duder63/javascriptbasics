@@ -1,4 +1,4 @@
-//JSON is an acronym for JavaScript Ogject Notation
+//JSON is an acronym for JavaScript Object Notation
 //Nested arrays
 var names = [["James", "Paul", "Cameron", "Chris"],["Morgan", "Julie", "Abbey", "Brie"]];
 //console.log(names[1][2]);
