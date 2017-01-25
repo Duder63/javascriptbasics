@@ -13,11 +13,12 @@ var dude = {
 dude["firstName"]  //Gary
 dude.lastName  //Shew
 
+//dude.middleName = "Muffin";
 
 // the || operator can be used to fill in default values
-var middle = dude["middleName"] || "(none)";
+var middle = dude["middleName"] || "(none given)";
 //console.log(middle);  //returns (none) if property "middleName" value is left empty or does not exist in the object
 
-console.log(dude.firstName + " " + dude.lastName);
-console.log(middle);
+console.log(dude.firstName + " " + middle + " " + dude.lastName);
+//console.log(middle);
 
