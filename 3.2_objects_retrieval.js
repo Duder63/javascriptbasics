@@ -1,7 +1,19 @@
-//Values can be retieved from an object by wrapping a string expression in a [] suffix
-//A . notation can be used instead - it is preferrd as it is more compact and reads better
+// Accessing an object
 
-var empty_object = {};
+// Values can be retieved from an object by wrapping a string expression in a [] suffix
+// A . notation can be used instead - it is preferrd as it is more compact and reads better
+
+var hotel = {
+	name: "Comfy",
+	rooms: 100,
+	booked: 63,
+	checkAvailability: function() {   //this is a method -> a function  within an object (object's property value)
+		return this.rooms - this.booked;
+	}
+};
+
+console.log(hotel.checkAvailability());
+
 
 var dude = {
  firstName: "Gary",

@@ -1,5 +1,19 @@
 //a property value in the object can be replaced
 
+var hotel = {
+	name: "Comfy",
+	rooms: "",
+	booked: "",
+	checkAvailability: function() { 
+		return this.rooms - this.booked;
+	}
+};
+hotel.rooms = 100;
+hotel.booked = 73;
+
+console.log(hotel.checkAvailability());
+
+
 var dude = {
  firstName: "Gary",
  lastName: "Shew"
