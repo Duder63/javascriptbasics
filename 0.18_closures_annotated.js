@@ -47,3 +47,11 @@ clara.age.setBirthday("3/20/2009");
 console.log(clara.age.getBirthday());
 
 
+var gary = {};
+gary.age = setAge(53);
+gary.age.setBirthday("2/06/1963");
+console.log(gary.age.getBirthday());
+
+
+
+
