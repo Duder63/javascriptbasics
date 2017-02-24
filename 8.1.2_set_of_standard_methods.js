@@ -1,6 +1,8 @@
 //JS includes a small set of standard methods
 // that are available on the standard types:
 
+//Array
+
 //array.push(item…)
 
 //The push method appends items to the end of an array. 

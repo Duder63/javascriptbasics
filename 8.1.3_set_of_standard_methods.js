@@ -1,6 +1,8 @@
 //JS includes a small set of standard methods
 // that are available on the standard types:
 
+//Array
+
 //array.shift( )
 //Removes the first element from an array.
 // If the array is empty, it returns undefined.
