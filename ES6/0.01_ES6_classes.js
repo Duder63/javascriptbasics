@@ -1,5 +1,8 @@
 // *** ES6 **** //
 
+//Must use strict mode to be able to use classes.
+"use strict";
+
 //Classes are "special functions", and just as you can define function expressions and function declarations,
 // the class syntax has two components: class expressions and class declarations.
 
